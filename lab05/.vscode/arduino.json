@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "/dev/tty.usbmodem11301",
+    "programmer": "arduino:avrisp",
+    "sketch": "hw5-2.ino"
+}
