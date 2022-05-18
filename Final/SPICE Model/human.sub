@@ -1,0 +1,10 @@
+.SUBCKT ECG_Source       RA LA RL
+
+R1 RA n001 1Meg
+R2 LA n002 1Meg
+
+V1 n001 RL wavefile="human.wav" chan=0
+V2 n002 RL wavefile="human.wav" chan=1
+
+.ENDS
+*$
